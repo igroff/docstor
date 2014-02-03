@@ -1,4 +1,4 @@
 node_modules/
-*.sqp
+*.swp
 difftest/results
 tmp/
