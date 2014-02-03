@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+# vi:ft=sh
+KEY_PATH=`uuidgen`
+curl -s http://localhost:8080/this/is/a/test/key/${KEY_PATH}
+curl -s -X PUT http://localhost:8080/this/is/a/test/key/${KEY_PATH} --data '{"name":"pants"}' -H 'Content-Type: application/json'
+curl -s http://localhost:8080/this/is/a/test/key/${KEY_PATH}

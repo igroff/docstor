@@ -1,0 +1,4 @@
+node_modules/
+*.sqp
+difftest/results
+tmp/
